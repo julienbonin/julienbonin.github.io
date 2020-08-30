@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+html {
+  all: unset;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  margin: auto;
+  background-color: darkred;
+}
+
+.door {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  background-image: url('/img/samurai_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+  height: 85%;
+
+  box-shadow: 1px 1px 3px .3px rgb(100,100,100);
+
+  border-style: solid;
+}
+
+.div1, .div2, .div3 {
+  margin: auto;
+}
+
+
+.div1 {
+  grid-area: "pane_left";
+}
+
+.div2 {
+  grid-area: "pane_center";
+  position: relative;
+}
+
+.div3 {
+  grid-area: "pane_right";
+}
+
+
+
+
+
+
+
+
+/**/

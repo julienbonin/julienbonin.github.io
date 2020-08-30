@@ -1,16 +1,109 @@
 <!DOCTYPE html>
+<html lang="en-US">
+  <head>
+      <link rel='stylesheet' href='/css/index.css'>
+      <link rel='stylesheet' href='css/normalize.css'>
+      <script type='text/javascript' src='/javascript/index.js'></script>
+      
+  </head>
 
-<html>
-    <head>
-        <link href="style.css" type="text/css" rel="stylesheet" />
-    </head>
+  <body id='body'>
+    <div id='header' class='header'>
+      <div class='header_overlay'></div>
+      <div class='header_nav'>
+        <a id='about_a' href='' onclick='jumpTo("about"); return false'>About</a>
+        <a id='skills_a' href='' onclick='jumpTo("skills"); return false'>Skills</a>
+        <a id='experience_a' href='' onclick='jumpTo("experience"); return false'>Experience</a>
+        <a id='education_a' href='' onclick='jumpTo("education"); return false'>Education</a>
+        <a id='portfolio_a' href='' onclick='jumpTo("portfolio"); return false'>Portfolio</a>
+        <a id='contact_a' href='' onclick='jumpTo("contact"); return false'>Contact</a>
+      </div> 
+    </div>
+      <div id='welcome' class='welcome'>
+        <div class='welcome_content'><img src='/img/swamp.jpg'></div>
 
-
-    <body>
-        <div id="header">
-            <h1>Hello! I'm Julien! Welcome to my site!</h1>
+        <div class='name_title'>
+          <p1>Julien Bonin</p1>
+          <div class='name_title_divider'></div>
+          <p2>Software Architect</p2>
         </div>
 
-	
-    </body>
+        <div id='welcome_nav' class='welcome_nav'>
+          <div class='welcome_nav2'>
+            <a id='welcome_about_a' href='' onclick='jumpTo("about"); return false'>About</a>
+            <a href='' onclick='jumpTo("skills"); return false'>Skills</a>
+            <a href='' onclick='jumpTo("experience"); return false'>Experience</a>
+            <a href='' onclick='jumpTo("education"); return false'>Education</a>
+            <a href='' onclick='jumpTo("portfolio"); return false'>Portfolio</a>
+            <a href='' onclick='jumpTo("contact"); return false'>Contact</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div id='about' class='about'>
+
+          
+          <div id='about_me' class='about_me'>
+            <div id='about_me_p1_wrapper' class='about_me_p1_wrapper'><p1>About Me</p1></div>
+            <div id='about_me_divider' class='about_me_divider'></div>
+          </div>
+
+          <div class='profile'>
+            <div id='profile_avi' class='profile_avi'>
+              <div id='profile_avi_overlay' class='profile_avi_overlay'></div>
+                <img id='profile_avi_img' src='img/profile_avi2.jpg'>
+            </div>
+
+            <div id='profile_content' class='profile_content'>
+              <div class='profile_content_p1'>
+                <p1>Hi! Thank's for visiting my page!</p1>
+                <p>Kindness own whatever betrayed her moreover procured replying for and. Proposal indulged no do do sociable he throwing settling.</br></br> Covered ten nor comfort offices carried. Age she way earnestly the fulfilled extremely. Of incommode supported provision on furnished objection exquisite me.</p>
+              </div>
+
+              <div class='profile_content_p2'>
+                <p1>Personal Interests</p1>
+                <p>Kindness own whatever betrayed her moreover procured replying for and. Proposal indulged no do do sociable he throwing settling. Covered ten nor comfort offices carried.</br></br> Age she way earnestly the fulfilled extremely.</br></br> Of incommode supported provision on furnished objection exquisite me. </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div id='skills' class='skills'></div>
+      <div id='experience' class='experience'></div>
+
+      <div id='education' class='education'>
+
+
+
+          <div id='education_title' class='education_title'>
+            <div id='education_title_p1_wrapper' class='education_title_p1_wrapper'><p1>Education</p1></div>
+            <div id='education_divider' class='education_divider'></div>
+          </div>
+
+
+          <div id='education_body' class='education_body'>
+            <div id='degree_acheivments' class='degree_acheivments'></div>
+            <div id='course_descriptions' class='course_descriptions'></div>
+          </div>
+       
+
+
+
+      </div>
+      <div id='portfolio' class='portfolio'></div>
+      <div id='contact' class='contact'></div>
+  </body>
+  <script>main();</script>
 </html>

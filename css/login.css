@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import "fonts.css";
+
+html {
+  all: unset;
+}
+
+body {
+  all: unset;
+  height: 99vH;
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  grid-template-rows: 20% auto auto 20%;
+  grid-template-areas:
+  " . . ."
+  " . main_login_div ."
+  " . main_login_div ."
+  " . . .";
+  background-color: #2C3531;
+}
+
+.main_login_div {
+  all: unset;
+  display: grid;
+  grid-template-rows: 60% 40%;
+  grid-template-columns: auto;
+  grid-template-areas:
+  " form "
+  " requirements_div ";
+  grid-area: main_login_div;
+  background-color: #116466;
+  box-shadow: 0px 3px 20px rgba(0,0,0,1);
+  align-items: center;
+}
+
+form {
+  all: unset;
+  display: grid;
+  grid-area: form;
+  grid-template-rows: auto auto auto;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+}
+
+form input {
+  all: unset;
+  background-color: #D1E8E2;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000000;
+  height: 50%;
+
+  font-family: future_x;
+  font-size: 20px;
+  text-indent: 10px;
+  margin: 3%;
+  box-shadow: 0px 0px 5px rgba(0,0,0,1);
+
+  border-style: solid;
+
+}
+
+form button {
+  all: unset;
+  height: 50%;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: darkgrey;
+  font-family: future_x;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000000;
+  box-shadow: 0px 0px 5px rgba(0,0,0,1);
+
+  border-style: solid;
+}
+
+.requirements_div {
+  all: unset;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  " . requirements_inner_div . "
+  " . requirements_inner_div . "
+  " . requirements_inner_div . ";
+  height: 100%;
+  align-items: center;
+}
+
+.requirements_inner_div {
+  all: unset;
+  display: grid;
+  grid-area: requirements_inner_div;
+  grid-template-columns:  15% auto;
+  grid-template-rows: auto auto auto auto;
+  height: 80%;
+  width: 100%;
+  align-items: center;
+}
+
+.requirements_div p3 {
+  all: unset;
+  grid-area: "p3";
+  font-family: future_earth;
+  font-size: 10px;
+}
+
+.img1, .img2, .img3, .img4 {
+  all: unset;
+  grid-area: "img";
+  height: 25px;
+  width: 25px;
+  margin-left: 30%;
+}
+
+
+
+
+
+/*/

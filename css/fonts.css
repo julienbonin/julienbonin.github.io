@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "future_x";
+    src: url('/font/future_x.woff2') format('woff2'),
+         url('/font/future_x.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Azonix";
+  src: url('/font/Azonix.otf');
+}
+
+@font-face {
+  font-family: "Airborne";
+  src: url('/font/AIRBORNE.ttf');
+}
+
+@font-face {
+  font-family: "Coalition";
+  src: url('/font/Coalition_v2..ttf');
+}
+
+@font-face {
+  font-family: "Conthrax";
+  src: url('/font/conthrax-sb.ttf');
+}
+
+@font-face {
+  font-family: "Deadspace";
+  src: url('/font/DeadSpaceTitleFont.ttf');
+}
+
+@font-face {
+  font-family: "Earth_Orbiter";
+  src: url('/font/earthorbiter.ttf');
+}
+
+@font-face {
+  font-family: "Elasis";
+  src: url('/font/elasis.ttf');
+}
+
+@font-face {
+  font-family: "Fireye";
+  src: url('/font/FireyeGF_3_Regular.ttf');
+}
+
+@font-face {
+  font-family: "Fireye_Headline";
+  src: url('/font/FireyeGF_3_Headline.ttf');
+}
+
+@font-face {
+  font-family: "Gangsters";
+  src: url('/font/GANGSTERS.ttf');
+}
+
+@font-face {
+  font-family: "Gravity";
+  src: url('/font/Gravity-Regular.otf');
+}
+
+@font-face {
+  font-family: "Guardians";
+  src: url('/font/Guardians.ttf');
+}
+
+@font-face {
+  font-family: "lastfontwastingonyou";
+  src: url('/font/lastfontwastingonyou.ttf');
+}
+
+@font-face {
+  font-family: "Manga_style";
+  src: url('/font/Manga_Style.ttf');
+}
+
+@font-face {
+  font-family: "Multicolor";
+  src: url('/font/Multicolore.otf');
+}
+
+@font-face {
+  font-family: "Nasalization";
+  src: url('/font/nasalization.ttf');
+}
+
+@font-face {
+  font-family: "Perfect_Dark";
+  src: url('/font/perfect_dark.ttf');
+}
+
+@font-face {
+  font-family: "Phosph11";
+  src: url('/font/Phosph11.ttf');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('/font/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Rounded_Elegance";
+  src: url('/font/Rounded_Elegance.ttf');
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url('/font/Sansation_Regular.ttf');
+}
+
+@font-face {
+  font-family: "Space3";
+  src: url('/font/Spac3_Slim_ttf_free.ttf');
+}
+
+@font-face {
+  font-family: "Space_Age";
+  src: url('/font/space_age.ttf');
+}
+
+@font-face {
+  font-family: "Space_Horizon";
+  src: url('/font/SpaceHorizon-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Spaceman";
+  src: url('/font/SPACEMAN.TTF');
+}
+
+@font-face {
+  font-family: "Spaceranger";
+  src: url('/font/spaceranger.ttf');
+}
+
+@font-face {
+  font-family: "Spacetime";
+  src: url('/font/Spacetime.ttf');
+}
+
+@font-face {
+  font-family: "ThunderDemo";
+  src: url('/font/ThunderDemo.ttf');
+}
+
+@font-face {
+  font-family: "TheLastCall";
+  src: url('/font/TheLastCall.ttf');
+}
+
+@font-face {
+  font-family: "Elevate";
+  src: url('/font/Elevate.ttf');
+}
+
+@font-face {
+  font-family: "ArtelyInks";
+  src: url('/font/ArtelyInks.ttf');
+}
+
+@font-face {
+  font-family: "HuntersScript";
+  src: url('/font/HuntersScript.ttf');
+}
+
+@font-face {
+  font-family: "NightMachine";
+  src: url('/font/NightMachine.ttf');
+}
+
+@font-face {
+  font-family: "Halbrein";
+  src: url('/font/Halbrein.ttf');
+}
+
+
+@font-face {
+  font-family: "Kashima";
+  src: url('/font/Kashima.otf');
+}
+
+@font-face {
+  font-family: "Osake";
+  src: url('/font/Osake.otf');
+}
+
+@font-face {
+  font-family: "Venus_Rising";
+  src: url('/font/venus_rising.ttf');
+}
+
+@font-face {
+  font-family: "Ginga";
+  src: url('/font/Ginga.ttf');
+}
+
+@font-face {
+  font-family: "Southern";
+  src: url('/font/Southern.ttf');
+}
+
+@font-face {
+    font-family: "dark_future";
+    src: url('/font/dark_future.ttf');
+}
+
+@font-face {
+    font-family: 'future_earth';
+    src: url('/font/future_earth.ttf');
+}
+
+@font-face {
+    font-family: "future";
+    src: url('/font/Future.otf');
+}
+
+@font-face {
+  font-family: "batman_forever_dark";
+  src: url('/font/batman_forever_dark.ttf');
+}
+
+@font-face {
+  font-family: "batman_forever_hollow";
+  src: url('/font/batman_forever_hollow.ttf');
+}
+
+@font-face {
+  font-family: "prometheus";
+  src: url('/font/PROMETHEUS.ttf');
+}
+
+@font-face {
+  font-family: "grandsport";
+  src: url('/font/grandsport.ttf');
+}
+
+@font-face {
+  font-family: "grandsporttitle";
+  src: url('/font/grandsporttitle.ttf');
+}
+
+@font-face {
+  font-family: "perfect_dark";
+  src: url('/font/perfect_dark.ttf');
+}
+
+@font-face {
+  font-family: "space_age";
+  src: url('/font/space_age.ttf');
+}
+
+
+@font-face {
+  font-family: "star_cruiser";
+  src: url('/font/star_cruiser.ttf'), url('/font/star_cruiser.otf');
+}
+
+@font-face {
+  font-family: "techno_hideo";
+  src: url('/font/techno_hideo.ttf');
+}
+
+@font-face {
+  font-family: "urban";
+  src: url('/font/Urban.ttf');
+}
+
+@font-face {
+  font-family: "playball";
+  src: url('/font/playball.ttf');
+}
+
+@font-face {
+  font-family: "spartakus";
+  src: url('/font/SparTakus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Amuse-Bouche";
+  src: url('/font/Amuse-Bouche.otf');
+}
+
+@font-face {
+  font-family: "whitrabt";
+  src: url('/font/whitrabt.ttf');
+}
+
+@font-face {
+  font-family: "MPonderosa";
+  src: url('/font/MPonderosa.ttf'), url('/font/MPonderosa.otf');
+}
+
+@font-face {
+  font-family: "Machine_Script";
+  src: url('/font/Machine_Script.ttf');
+}
+
+@font-face {
+  font-family: "Mad_Hacker";
+  src: url('/font/Mad_Hacker.ttf');
+}
+
+@font-face {
+  font-family: "ASTERA";
+  src: url('/font/ASTERA.ttf');
+}
+
+@font-face {
+  font-family: "Red_rose";
+  src: url('/font/RedRose-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url('/font/BalooTamma2-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Work_Sans";
+  src: url('/font/WorkSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Gruppo";
+  src: url('/font/Gruppo-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Yellowtail";
+  src: url('/font/Yellowtail-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Bungee_Hairline";
+  src: url('/font/BungeeHairline-Regular.ttf');
+}
+
+
+
+
+
+
+
+
+/* */

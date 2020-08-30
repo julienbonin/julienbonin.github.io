@@ -1,0 +1,293 @@
+@charset "UTF-8";
+@import "fonts.css";
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    display: grid;
+    margin: auto;
+}
+
+.welcome {
+    height: 100vh;
+}
+
+.skills, .education {
+    background-color: #F5F5F5;
+}
+
+.contact {
+    background-color: #6b6e70; /*#474b4f;*/
+}
+
+.header {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    /*background-color: #857736; /*#306030 ,195905, 087830, 467e46, 7f8c6f  */
+    background-image: linear-gradient(3deg, #000000,#111111, #013220,#013220,#013220,#111111,#000000);
+}
+
+.header_overlay {
+
+    /*Currently not being used*/
+    position: fixed;
+    
+    display: grid;
+    height: 50px;
+    width: 100%;
+    /*background-image: url("/img/gold3.jpg");*/
+    background-color: #F5F5F5;
+    
+    opacity: 0%;
+    z-index: -1; /* moved to behind b/c was in way*/
+
+  
+}
+
+.header_nav {
+    width: 65%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto auto auto;
+
+    z-index: 2;
+}
+
+.header_nav a {
+    margin: auto;
+    text-decoration: none;
+    font-family: Conthrax; /*Fireye, */
+    font-size: 12px;
+}
+
+
+.welcome img {
+    height: 100%;
+    width: 100%;
+}
+
+.welcome_content {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    background-color: #F5F5F5;
+    opacity: .3;
+}
+
+.name_title {
+    position: relative;
+    width: 50%;
+    height: 125px;
+    display: grid;
+    grid-template-rows: 60% auto 39%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    top: 300px;
+}
+
+.name_title p1 {
+    margin: auto;
+    font-size: 70px;
+    font-family: Elevate; /* Elevate, Conthrax, Fireye_Headline, lastfontwastingonyou, Phosph11  */
+}
+
+.name_title p2 {
+    margin: auto;
+    font-size: 20px;
+    font-family: Conthrax; /*Fireye_Headline, future_x, Azonix, Coalition*/
+
+}
+
+.name_title_divider {
+    border-top: solid;
+    border-color: #243D24;
+    border-width: 1px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.welcome_nav {
+    position: absolute;
+    display: grid;
+    width: 100%;
+    
+    height: 50px;
+    bottom: 0;
+
+
+}
+
+.welcome_nav2 {
+    width: 100%;
+    display: grid;
+    width: 65%;
+    margin: auto;
+
+    grid-template-columns: auto auto auto auto auto auto;
+
+
+}
+
+.welcome_nav2 a {
+    margin: auto;
+    text-decoration: none;
+    font-family: Conthrax; /*Fireye, */
+    font-size: 12px;
+    color: black;
+}
+
+
+.about {
+    display: grid;
+    grid-template-rows: 20% 80%; /*about_me & profile*/
+}
+
+.about_me {
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+.about_me_p1_wrapper, .about_me_divider {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.about_me_p1_wrapper {
+    margin-top: auto;
+}
+
+
+
+.about_me_divider {
+    border-style: solid;
+    border-width: 1px;
+    width: 0;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.about_me p1 {
+    font-size: 25px;
+    font-family: Conthrax;
+    margin: auto;
+  
+
+   
+}
+
+
+.profile {
+    display: grid;
+    grid-template-columns: 32% 68% ; /* profile_avi & profile_content*/
+    height: 80%;
+    margin-bottom: auto;
+
+}
+
+.profile_avi {
+    margin: auto;
+
+}
+
+.profile_avi_overlay {
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-bottom: auto;
+
+}
+
+.profile_avi img {
+    width: 275px;
+    height: auto;
+    
+}
+
+.profile_content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+    opacity: 0%;
+
+}
+
+.profile_content_p1 {
+    width: 80%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.profile_content_p2 {
+    width: 80%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profile_content p1 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Conthrax;
+}
+
+.profile_content p2 {
+    font-size: 16px;
+    font-family: Conthrax;
+}
+
+.education {
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+
+.education_title {
+    display: grid;
+    height: 100%;
+
+    grid-template-rows: 50% 50%;
+    
+}
+
+.education_title_p1_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+
+.education_title p1 {
+    font-size: 25px;
+    font-family: Conthrax;
+     margin: auto;
+}
+
+.education_divider {
+    margin: auto;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    
+    
+}
