@@ -230,6 +230,9 @@ body {
 .profile_content_p1 {
     width: 80%;
     height: 50%;
+
+    display: grid;
+    grid-template-rows: 10% auto;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -239,9 +242,15 @@ body {
 .profile_content_p2 {
     width: 80%;
     height: 50%;
+    display: grid;
+    grid-template-rows: 10% auto;
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+.profile_content_p2 p1 {
+    margin: auto;
 }
 
 .profile_content p1 {
@@ -250,9 +259,9 @@ body {
     font-family: Conthrax;
 }
 
-.profile_content p2 {
+.profile_content p {
     font-size: 16px;
-    font-family: Conthrax;
+    font-family: Roboto;
 }
 
 .education {
